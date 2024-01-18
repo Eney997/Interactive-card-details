@@ -1,0 +1,35 @@
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+               -webkit-appearance: none;
+}
+.greyCardClass {
+    background-image: url(/src/public/greyCard.svg);
+    width: 286px;
+    height: 157px;
+    margin-left: 55px;
+}
+.blackDivsquear {
+    width: 286px;
+    height: 34.604px;
+    background: #2F2F2F;
+    margin-top: 14px;
+}
+input[type=number] {
+    text-align:bottom 0px;padding-left:190px
+}
+::placeholder {
+    color: #FFF;
+}
+.numInputBox {
+    pointer-events: none;
+    border-radius: 5px;
+    background-color: #ADB5BE;
+    margin-left: 28px;
+    margin-top: 15px;
+    width: 230.975px;
+    height: 29.739px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    color: white;
+}
