@@ -21,6 +21,7 @@ input::-webkit-outer-spin-button,
     text-align:bottom 0px;padding-left:24px
 }
 .numInputBox2 {
+    pointer-events: none;
     color: var(--White, #FFF);
     font-family: "Space Grotesk";
     font-size: 18px;
@@ -58,6 +59,7 @@ input[type=text] {
     margin-top: -21px;
 }
 .monthIn {
+    pointer-events: none;
     color: var(--White, #FFF);
     text-align: right;
     font-family: "Space Grotesk";
@@ -80,6 +82,7 @@ input[type=text] {
     text-transform: uppercase;
 }
 .yearIn {
+    pointer-events: none;
     color: var(--White, #FFF);
     text-align: right;
     font-family: "Space Grotesk";
