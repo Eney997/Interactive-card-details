@@ -5,3 +5,9 @@
     height: 240px;
     background: #21092F;
 }
+@media (width>1200px) {
+    .coloredBack {
+        width: 483px;
+        height: 100vh;
+    }
+}

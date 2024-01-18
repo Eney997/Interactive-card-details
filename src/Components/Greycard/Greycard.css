@@ -33,3 +33,33 @@ input[type=number] {
     outline: none;
     color: white;
 }
+@media (width>1200px){
+    .greyCardClass {
+        background-image: url(/src/public/greyCardDesk.svg);
+        width: 447px;
+        height: 245px;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 555px;
+    }
+    .blackDivsquear {
+        width: 447px;
+        height: 54px;
+    }
+    .numInputBox {
+        width: 361px;
+        height: 38px;
+        margin-left: 45px;
+        font-size: 14px;
+    }
+    input[type=number] {
+        text-align:bottom 0px;padding-left:325px
+    }
+    .greyLines {
+        background-image: url(/src/public/greyCardUnderLinesDesk.svg);
+        width: 186px;
+        height: 26px;
+        margin-top: 38px;
+        margin-left: 132px;
+    }
+}

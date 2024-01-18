@@ -18,7 +18,13 @@ const Greycard = (props) => {
     <Coloredbackground>
    <div className='greyCardClass'>{props.children}
         <div className='blackDivsquear'></div>
-        <input type="number" value={value} onChange={handleInputChange} placeholder="000" className='numInputBox'/>
+        <input 
+        type="number" 
+        value={value} 
+        onChange={handleInputChange} 
+        placeholder="000" 
+        className='numInputBox'/>
+        <div className='greyLines'></div>
    </div>
    </Coloredbackground>
   )

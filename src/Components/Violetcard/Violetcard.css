@@ -55,10 +55,11 @@ input[type=text] {
     outline: none;
 }
 .expDay {
-    margin-left: 225px;
+    margin-left: 220px;
     margin-top: -21px;
 }
 .monthIn {
+    width: 20px;
     pointer-events: none;
     color: var(--White, #FFF);
     text-align: right;
@@ -92,5 +93,55 @@ input[type=text] {
     line-height: normal;
     letter-spacing: 1.286px;
     text-transform: uppercase;
+}
+
+@media (width>1200px){
+    .secondCard {
+        background-image: url(/src/public/violetCardDesk.svg);
+        width: 447px;
+        height: 245px;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: -100px;
+    }
+    .violetsCircle {
+        background-image: url(/src/public/CirclesForDeskViolet.svg);
+        width: 84px;
+        height: 47px;
+        margin-top: 28px;
+        margin-left: 32px;
+    }
+    .numInputBox2 {
+        font-size: 28px;
+        line-height: normal;
+        letter-spacing: 3.422px;
+    }
+    #input2[type=number] {
+        text-align:bottom 0px;padding-left:34px
+    }
+    .fottxtInput {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-left: 36px;
+        margin-top: 25px;
+    }
+    .expDay {
+        margin-left: 335px;
+    } 
+    .monthIn {
+        width: 30px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .yearIn {
+        width: 27px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .forSpan {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
 }
 
