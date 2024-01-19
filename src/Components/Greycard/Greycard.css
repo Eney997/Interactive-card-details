@@ -33,7 +33,7 @@ input[type=number] {
     outline: none;
     color: white;
 }
-@media (width>1440px){
+@media (width>1300px){
     .greyCardClass {
         background-image: url(/src/public/greyCardDesk.svg);
         width: 447px;
