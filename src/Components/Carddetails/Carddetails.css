@@ -164,10 +164,10 @@
     border: 1px solid var(--Red, #FF5050);
     background: var(--White, #FFF);
 }
-@media (width>1300px){
+@media (width>1440px){
     .bigBox {
         margin-left: 700px;
-        margin-top: -700px;
+        margin-top: -785px;
     }
     .saerto {
         font-size: 15px;
