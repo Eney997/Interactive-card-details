@@ -1,6 +1,7 @@
 import Violetcard from './Components/Violetcard/Violetcard'
 import './App.css'
 import Carddetails from './Components/Carddetails/Carddetails'
+import Thankyoupage from './Components/Thankyoupage/Thankyoupage'
 
 function App() {
   
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
       <Violetcard/>
-      <Carddetails/>
+      {/* <Carddetails> */}
+        <Thankyoupage></Thankyoupage>
+      {/* </Carddetails> */}
     </>
   )
 }

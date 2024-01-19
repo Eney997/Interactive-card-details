@@ -1,0 +1,53 @@
+.PickYes {
+    background-image: url(/src/public/tyLogo.svg);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+}
+.ThankYou {
+    width: 327px;
+    color: var(--Deep-Violet, #21092F);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.422px;
+    margin-top: 35px;
+}
+.Cardadded {
+    color: var(--Purplish-Grey, #8F8694);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+.ButTwo {
+    margin-top: 50px;
+    width: 327px;
+    height: 53px;
+    border-radius: 8px;
+    background: var(--Deep-Violet, #21092F);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.ButTwo:hover {
+    background-color: aqua;
+}
+.ContinueSpan {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

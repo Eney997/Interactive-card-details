@@ -1,7 +1,3 @@
-.bigBox {
-    display: grid;
-    place-items: center;
-}
 .whiteBox {
         border: 1px solid rgb(255, 255, 255);
         width: 327px;
@@ -114,7 +110,7 @@
     margin-bottom: 100px;
 }
 .butOne:hover {
-    background:rgb(89, 0, 255);
+    background:aqua;
 }
 .errorOne {
     color: var(--Red, #FF5050);
@@ -165,10 +161,6 @@
     background: var(--White, #FFF);
 }
 @media (width>1300px){
-    .bigBox {
-        margin-left: 700px;
-        margin-top: -700px;
-    }
     .saerto {
         font-size: 15px;
         
@@ -188,11 +180,5 @@
     .butOne {
         width: 381px;
         height: 45px;
-    }
-}
-@media (width>1900px){
-    .bigBox {
-        margin-left: 700px;
-        margin-top: -860px;
     }
 }
