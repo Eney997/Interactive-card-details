@@ -1,6 +1,6 @@
 import React from 'react'
 import './Thankyoupage.css'
-import Card from '../Card/card'
+import Card from '../Card/Card'
 
 const Thankyoupage = () => {
   return (
