@@ -1,0 +1,197 @@
+.bigBox {
+    display: grid;
+    place-items: center;
+}
+.whiteBox {
+        border: 1px solid rgb(255, 255, 255);
+        width: 327px;
+        height: 328px;
+        margin-top: 100px;
+}
+.saerto {
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.fullName {
+    width: 327px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.cardNumbersec {
+    width: 327px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.monthIn1 {
+    width: 72px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.yearIn3 {
+    width: 72px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 8px;
+}
+.cvv {
+    width: 164px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.conSpan {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.butOne {
+    width: 327px;
+    height: 53px;
+    border-radius: 8px;
+    background: var(--Deep-Violet, #21092F);
+    cursor: pointer;
+    margin-top: 22px;
+    outline: none;
+    border: none;
+}
+.butOne:hover {
+    background:rgb(89, 0, 255);
+}
+.errorOne {
+    color: var(--Red, #FF5050);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -9px;
+    display: none;
+}
+.errorTwo {
+    color: var(--Red, #FF5050);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -9px;
+    display: none;
+}
+.errorThree {
+    color: var(--Red, #FF5050);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -9px;
+    display: none;
+}
+.errorFour {
+    color: var(--Red, #FF5050);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: none;
+}
+.redBorder {
+    border-radius: 8px;
+    border: 1px solid var(--Red, #FF5050);
+    background: var(--White, #FFF);
+}
+@media (width>1300px){
+    .bigBox {
+        margin-left: 700px;
+        margin-top: -820px;
+    }
+    .saerto {
+        font-size: 15px;
+        
+    }
+    .whiteBox {
+        width: 381px;
+        height: 352px;
+    }
+    .fullName {
+        width: 381px;
+        height: 45px;
+    }
+    .cardNumbersec {
+        width: 381px;
+        height: 45px;
+    }
+    .butOne {
+        width: 381px;
+        height: 45px;
+    }
+}
+@media (width>1900px){
+    .bigBox {
+        margin-left: 700px;
+        margin-top: -860px;
+    }
+}
