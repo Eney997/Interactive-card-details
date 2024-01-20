@@ -10,7 +10,6 @@ const Carddetails = () => {
   const [cardholderName, setCardholderName] = useState('');
   const [expiryMonth, setExpiryMonth] = useState('');
   const [expiryYear, setExpiryYear] = useState('');
-
   const [nameError, setNameError] = useState('');
   const [cardError, setCardError] = useState('');
   const [expiryError, setExpiryError] = useState('');
@@ -38,14 +37,22 @@ const Carddetails = () => {
 
   const handleInputChangeMonth = (e) => {
     let inputExpiryMonth = e.target.value;
-    setExpiryMonth(inputExpiryMonth);
-    setExpiryError('');
+    if (/^\d*$/.test(inputExpiryMonth)) {
+      setExpiryMonth(inputExpiryMonth);
+      setExpiryError('');
+    } else {
+      setExpiryError('Please enter only numbers for the expiry month.');
+    }
   };
 
   const handleInputChangeYear = (e) => {
     let inputExpiryYear = e.target.value;
-    setExpiryYear(inputExpiryYear);
-    setExpiryError('');
+    if (/^\d*$/.test(inputExpiryYear)) {
+      setExpiryYear(inputExpiryYear);
+      setExpiryError('');
+    } else {
+      setExpiryError('Please enter only numbers for the expiry year.');
+    }
   };
 
   const validateForm = () => {
