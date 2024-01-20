@@ -160,3 +160,4 @@ const Carddetails = () => {
 export default Carddetails;
         
         
+// damgala amdedamotynulma
