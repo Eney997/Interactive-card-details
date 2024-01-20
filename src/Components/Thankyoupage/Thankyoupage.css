@@ -56,7 +56,13 @@
 }
 @media (width>1300px){
     .typb {
-        margin-top: 150px;
-        margin-left: -100px;
+        margin-top: 750px;
+        margin-left: -800px;
+    }
+}
+@media (width>1900px){
+    .typb {
+        margin-top: 1000px;
+        margin-left: -800px;
     }
 }

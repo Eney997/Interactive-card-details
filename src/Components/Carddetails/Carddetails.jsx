@@ -2,9 +2,12 @@ import React from 'react'
 import './Carddetails.css'
 import Card from '../Card/Card'
 import { useState } from 'react'
+import Thankyoupage from '../Thankyoupage/Thankyoupage'
 
 const Carddetails = () => {
-
+   
+  const [confirmed,setConfirmed] = useState(false)
+  
   const [valueCvv, setValueCvv] = useState('');
 
   const handleInputChangeCvv = (e) => {
@@ -24,7 +27,7 @@ const Carddetails = () => {
 
   return (
     <Card>
-    <div className='whiteBox'>
+    {!confirmed && <div className='whiteBox'>
         <h1 className='saerto'>CARDHOLDER NAME</h1>
         <input className="fullName"  maxLength={40} type="text1" placeholder="First Name"></input>
           <p className='errorOne'>Wrong format, letters only</p>
@@ -48,8 +51,9 @@ const Carddetails = () => {
            type="text6"  
            placeholder="CCV"/>
           <p className='errorFour'>Can't be blank</p>
-          <button className='butOne'><span className='conSpan'>Confirm</span></button>
-    </div>
+          <button className='butOne' onClick={()=> setConfirmed(true)}><span className='conSpan'>Confirm</span></button>
+    </div>}
+    {confirmed && <Thankyoupage setConfirmed={setConfirmed}/>}
     </Card>
   )
 }
