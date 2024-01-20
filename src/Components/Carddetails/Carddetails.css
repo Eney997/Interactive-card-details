@@ -160,6 +160,9 @@
     border: 1px solid var(--Red, #FF5050);
     background: var(--White, #FFF);
 }
+.activeDisplay {
+    display: block;
+}
 @media (width>1300px){
     .saerto {
         font-size: 15px;
