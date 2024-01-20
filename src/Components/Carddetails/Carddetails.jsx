@@ -24,10 +24,11 @@ const Carddetails = () => {
 
   const handleInputChangeCard = (e) => {
     let inputValueCard = e.target.value;
+    inputValueCard = inputValueCard.replace(/\D/g, '');
     inputValueCard = inputValueCard.slice(0, 16);
+    inputValueCard = inputValueCard.replace(/(\d{4})/g, '$1 ');
     setValueCard(inputValueCard);
-    setCardError('');
-  };
+};
 
   const handleInputChangeName = (e) => {
     let inputCardholderName = e.target.value;
@@ -63,10 +64,10 @@ const Carddetails = () => {
       isValid = false;
     }
 
-    if (!valueCard.match(/^\d+$/)) {
-      setCardError('Wrong format, numbers only');
-      isValid = false;
-    }
+    // if (!valueCard.match(/^\d+$/)) {
+    //   setCardError('Wrong format, numbers only');
+    //   isValid = false;
+    // }
 
     if (!expiryMonth || !expiryYear) {
       setExpiryError("Can't be blank");
