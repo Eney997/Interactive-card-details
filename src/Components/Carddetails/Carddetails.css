@@ -1,3 +1,7 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
 .whiteBox {
         border: 1px solid rgb(255, 255, 255);
         width: 327px;

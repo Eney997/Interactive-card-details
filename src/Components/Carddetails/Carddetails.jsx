@@ -88,7 +88,7 @@ const Carddetails = () => {
           <input
             className={`fullName ${nameError && 'redBorder'}`}
             maxLength={40}
-            type='text1'
+            type='text'
             placeholder='First Name'
             value={cardholderName}
             onChange={handleInputChangeName}
@@ -100,7 +100,7 @@ const Carddetails = () => {
             onChange={handleInputChangeCard}
             value={valueCard}
             className={`cardNumbersec ${cardError && 'redBorder'}`}
-            type='text2'
+            type='text'
             placeholder='Card Number'
           />
           <p className={`errorTwo ${cardError && 'activeDisplay'}`}>{cardError}</p>
@@ -108,7 +108,7 @@ const Carddetails = () => {
           <h3 className='saerto'>Exp. Date (MM/YY)</h3>
           <input
             className={`monthIn1 ${expiryError && 'redBorder'}`}
-            type='text4'
+            type='text'
             placeholder='MM'
             maxLength='2'
             size='2'
@@ -116,7 +116,7 @@ const Carddetails = () => {
           />
           <input
             className={`yearIn3 ${expiryError && 'redBorder'}`}
-            type='text5'
+            type='text'
             placeholder='YY'
             maxLength='2'
             size='2'
@@ -129,7 +129,7 @@ const Carddetails = () => {
             value={valueCvv}
             onChange={handleInputChangeCvv}
             className={`cvv ${cvvError && 'redBorder'}`}
-            type='text6'
+            type='number'
             placeholder='CCV'
           />
           <p className={`errorFour ${cvvError && 'activeDisplay'}`}>{cvvError}</p>
