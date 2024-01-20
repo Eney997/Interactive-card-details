@@ -64,10 +64,10 @@ const Carddetails = () => {
       isValid = false;
     }
 
-    // if (!valueCard.match(/^\d+$/)) {
-    //   setCardError('Wrong format, numbers only');
-    //   isValid = false;
-    // }
+    if (!valueCard.match(/^\d+$/)) {
+      setCardError('Wrong format, numbers only');
+      isValid = false;
+    }
 
     if (!expiryMonth || !expiryYear) {
       setExpiryError("Can't be blank");
