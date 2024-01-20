@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 .ButTwo:hover {
-    background-color: aqua;
+    background-color:#8400ff;
 }
 .ContinueSpan {
     color: var(--White, #FFF);

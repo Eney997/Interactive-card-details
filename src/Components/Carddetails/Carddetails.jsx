@@ -93,6 +93,7 @@ const Carddetails = () => {
         <div className='whiteBox'>
           <h1 className='saerto'>CARDHOLDER NAME</h1>
           <input
+            id='1'
             className={`fullName ${nameError && 'redBorder'}`}
             maxLength={40}
             type='text'
@@ -104,6 +105,7 @@ const Carddetails = () => {
 
           <h2 className='saerto'>CARD NUMBER</h2>
           <input
+          id='2'
             onChange={handleInputChangeCard}
             value={valueCard}
             className={`cardNumbersec ${cardError && 'redBorder'}`}
@@ -114,6 +116,7 @@ const Carddetails = () => {
 
           <h3 className='saerto'>Exp. Date (MM/YY)</h3>
           <input
+          id='3'
             className={`monthIn1 ${expiryError && 'redBorder'}`}
             type='text'
             placeholder='MM'
@@ -122,6 +125,7 @@ const Carddetails = () => {
             onChange={handleInputChangeMonth}
           />
           <input
+          id='4'
             className={`yearIn3 ${expiryError && 'redBorder'}`}
             type='text'
             placeholder='YY'
@@ -133,6 +137,7 @@ const Carddetails = () => {
 
           <h4 className='saerto'>CVV</h4>
           <input
+          id='5'
             value={valueCvv}
             onChange={handleInputChangeCvv}
             className={`cvv ${cvvError && 'redBorder'}`}

@@ -114,7 +114,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 100px;
 }
 .butOne:hover {
-    background:aqua;
+    background:#8400ff;
 }
 .errorOne {
     color: var(--Red, #FF5050);
