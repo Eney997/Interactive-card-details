@@ -25,7 +25,7 @@ const Carddetails = () => {
 
   const handleInputChangeCard = (e) => {
     let inputValueCard = e.target.value;
-    inputValueCard = inputValueCard.slice(0, 19);
+    inputValueCard = inputValueCard.slice(0, 16);
     setValueCard(inputValueCard);
     setCardError('');
   };
